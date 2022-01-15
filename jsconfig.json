@@ -1,0 +1,14 @@
+{
+  "exclude": [ "node_modules" ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components": [ "components" ],
+      "@pages": [ "pages" ],
+      "@hooks": [ "hooks" ],
+      "@api": [ "pages/api" ],
+      "@docs": [ "pages/docs" ],
+      "@styles/*": [ "styles/*" ]
+    }
+  }
+}

@@ -1,12 +1,7 @@
-const withPlugins = require('next-compose-plugins');
-
-const nextConfiguration = {
+module.exports = {
+  reactStrictMode: true,
   /**
    * Target must be serverless.
    */
   target: 'serverless'
-};
-
-module.exports = withPlugins(
-  nextConfiguration
-);
+}

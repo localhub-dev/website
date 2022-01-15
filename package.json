@@ -1,45 +1,19 @@
 {
-  "name": "localhub-website",
-  "version": "0.0.1",
-  "homepage": "https://localhub.dev",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/localhub-dev/website.git"
-  },
-  "bugs": {
-    "url": "https://github.com/localhub-dev/website/issues"
-  },
-  "author": {
-    "name": "Dustin Perolio",
-    "url": "https://dperolio.com",
-    "email": "dustin@dperolio.com"
-  },
+  "name": "website",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.4.1",
-    "@emotion/styled": "^11.3.0",
-    "classnames": "^2.3.1",
-    "cors": "^2.8.5",
-    "framer-motion": "^4.1.17",
-    "next": "^11.1.2",
-    "next-compose": "0.0.2",
-    "next-compose-plugins": "^2.2.1",
-    "next-seo": "^4.28.1",
+    "next": "12.0.8",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsdoc": "^36.1.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "sass": "^1.42.1"
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8"
   }
 }

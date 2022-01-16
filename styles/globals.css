@@ -9,7 +9,7 @@ body {
 
 html::after {
   content: '';
-  background: url(https://www.wallpaperflare.com/static/589/617/269/syntax-highlighting-code-html-computer-wallpaper.jpg) no-repeat center /cover;
+  background: url(/images/syntax-highlighting-code-html-computer-wallpaper.jpg) no-repeat center /cover;
   position: fixed;
   top: 0;
   left: 0;

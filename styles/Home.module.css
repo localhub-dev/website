@@ -28,6 +28,10 @@
   flex-grow: 1;
 }
 
+.title > span {
+  overflow: visible !important;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;

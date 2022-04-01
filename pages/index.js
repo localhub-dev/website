@@ -6,9 +6,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          <Image src='/images/localhub-coming-soon.png' width='751' height='245' alt='coming soon' />
-        </h1>
+        <a href='https://github.com/localhubdev'>
+          <h1 className={styles.title}>
+            <Image src='/images/localhub-coming-soon.png' width='751' height='245' alt='coming soon' />
+          </h1>
+        </a>
       </main>
     </div>
   )
